@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Message
+
+# Model Form Field configuration
+form: $/localchat/messages/models/message/fields.yaml
+
+# Model Class name
+modelClass: Localchat\Messages\Models\Message
+
+# Default redirect location
+defaultRedirect: localchat/messages/messages
+
+# Create page
+create:
+    title: Create Message
+    redirect: localchat/messages/messages/update/:id
+    redirectClose: localchat/messages/messages
+
+# Update page
+update:
+    title: Edit Message
+    redirect: localchat/messages/messages
+    redirectClose: localchat/messages/messages
+
+# Preview page
+preview:
+    title: Preview Message

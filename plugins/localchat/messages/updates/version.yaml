@@ -1,0 +1,8 @@
+1.0.1: 
+- First version of Messages
+- create_messages_table.php
+- create_groups_table.php
+- create_users_table.php
+- temp_users_table.php
+- temp_msg_table.php
+- temp_gp_table.php

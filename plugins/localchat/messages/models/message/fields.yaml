@@ -1,0 +1,22 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    user:
+        label: User's Nickname
+        disabled: false
+        type: relation
+        select: name
+    group:
+        label: Origin Group
+        disabled: false
+        type: relation
+        select: name
+    message:
+        label: Message
+        disabled: false
+        type: text

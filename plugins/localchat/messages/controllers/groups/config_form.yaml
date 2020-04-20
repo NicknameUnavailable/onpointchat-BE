@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Group
+
+# Model Form Field configuration
+form: $/localchat/messages/models/group/fields.yaml
+
+# Model Class name
+modelClass: Localchat\Messages\Models\Group
+
+# Default redirect location
+defaultRedirect: localchat/messages/groups
+
+# Create page
+create:
+    title: Create Group
+    redirect: localchat/messages/groups/update/:id
+    redirectClose: localchat/messages/groups
+
+# Update page
+update:
+    title: Edit Group
+    redirect: localchat/messages/groups
+    redirectClose: localchat/messages/groups
+
+# Preview page
+preview:
+    title: Preview Group

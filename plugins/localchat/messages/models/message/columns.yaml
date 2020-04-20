@@ -1,0 +1,26 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    user_id:
+        label: User's Nickname
+        type: text
+        searchable: true
+        relation: user
+        select: name
+    group_id:
+        label: Origin Group
+        type: text
+        searchable: true
+        relation: group
+        select: name
+    message:
+        label: Message
+        type: text
+        searchable: false
+    
+        
