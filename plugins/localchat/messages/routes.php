@@ -48,3 +48,11 @@ Route::post('/message', function() {
 
     $message->save();
 });
+
+Route::post('/group', function() {
+    $group = new Group;
+
+    $group->name = Input::get('name');
+
+    $group->save();
+});
