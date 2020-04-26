@@ -61,7 +61,9 @@ class Group extends Model
      * @var array Relations
      */
     public $hasOne = [];
-    public $hasMany = [];
+    public $hasMany = [
+        'messages' => ['localchat\messages\models\message', 'count'=>true]
+        ];
     public $belongsTo = [];
     public $belongsToMany = [];
     public $morphTo = [];

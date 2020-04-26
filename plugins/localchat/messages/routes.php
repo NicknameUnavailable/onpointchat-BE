@@ -26,6 +26,9 @@ Route::get('/user/{id}', function($id) {
     return User::where(['id' => $id])->first();
 });
 
+Route::get('/messagecount', function() {
+    return Group::with('messages')->get();
+});
 //Post requests
 
 Route::post('/user', function() {

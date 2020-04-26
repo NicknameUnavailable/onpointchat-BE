@@ -10,3 +10,8 @@ columns:
         label: Group Name
         type: text
         searchable: true
+    message_count:
+        label: Number of messages
+        relation: messages
+        useRelationCount: true
+        searchable: false
