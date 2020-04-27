@@ -63,8 +63,8 @@ class Message extends Model
     public $hasOne = [];
     public $hasMany = [];
     public $belongsTo = [
-        'user'  =>['localchat\messages\models\user'],
-        'group' =>['localchat\messages\models\group']
+        'user'  =>['Localchat\Messages\Models\User'],
+        'group' =>['Localchat\Messages\Models\Group']
     ];
     public $belongsToMany = [];
     public $morphTo = [];
