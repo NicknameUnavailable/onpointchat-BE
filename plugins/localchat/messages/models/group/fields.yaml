@@ -10,3 +10,9 @@ fields:
         label: Group Name
         type: text
         disabled: false
+    user:
+        label: Creator name
+        type: relation
+        select: name
+        disabled: false
+        

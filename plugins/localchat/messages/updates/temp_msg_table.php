@@ -13,7 +13,7 @@ class SeedMessagesTable extends Seeder
                 'id'            => 1,
                 'created_at'    => "2020-03-03 14:18:00",
                 'updated_at'    => "2020-03-03 14:18:00",
-                'user_id'       => "1",
+                'user_id'       => "2",
                 'group_id'      => "1",
                 'message'       => "Ahoj neznama osoba. Ja som automaticky vyplnena sprava."
             ],
@@ -21,7 +21,7 @@ class SeedMessagesTable extends Seeder
                 'id'            => 2,
                 'created_at'    => "2020-03-03 14:19:00",
                 'updated_at'    => "2020-03-03 14:19:00",
-                'user_id'       => "2",
+                'user_id'       => "3",
                 'group_id'      => "2",
                 'message'       => "Ahoj neznama osoba. Ja som automaticky vyplnena sprava."
             ],
@@ -29,7 +29,7 @@ class SeedMessagesTable extends Seeder
                 'id'            => 3,
                 'created_at'    => "2020-03-03 14:20:00",
                 'updated_at'    => "2020-03-03 14:20:00",
-                'user_id'       => "3",
+                'user_id'       => "4",
                 'group_id'      => "3",
                 'message'       => "Ahoj neznama osoba. Ja som automaticky vyplnena sprava."
             ]

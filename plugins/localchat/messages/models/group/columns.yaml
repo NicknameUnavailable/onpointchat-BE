@@ -15,3 +15,9 @@ columns:
         relation: messages
         useRelationCount: true
         searchable: false
+    user_id:
+        label: Creator name
+        type: text
+        searchable: true
+        relation: user
+        select: name

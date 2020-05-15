@@ -56,6 +56,7 @@ Route::post('/group', function() {
     $group = new Group;
 
     $group->name = Input::get('name');
+    $group->user_id = Input::get('user_id');
 
     $group->save();
 });

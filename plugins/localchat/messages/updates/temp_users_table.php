@@ -13,16 +13,22 @@ class SeedUsersTable extends Seeder
                 'id'            => 1,
                 'created_at'    => "2020-03-03 14:18:00",
                 'updated_at'    => "2020-03-03 14:18:00",
-                'name'      => "Arnost"
+                'name'      => "Admin"
             ],
             [
                 'id'            => 2,
+                'created_at'    => "2020-03-03 14:18:00",
+                'updated_at'    => "2020-03-03 14:18:00",
+                'name'      => "Arnost"
+            ],
+            [
+                'id'            => 3,
                 'created_at'    => "2020-03-03 14:19:00",
                 'updated_at'    => "2020-03-03 14:19:00",
                 'name'      => "Joseph"
             ],
             [
-                'id'            => 3,
+                'id'            => 4,
                 'created_at'    => "2020-03-03 14:20:00",
                 'updated_at'    => "2020-03-03 14:20:00",
                 'name'      => "Enrike"

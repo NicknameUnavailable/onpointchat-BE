@@ -13,19 +13,23 @@ class SeedGroupsTable extends Seeder
                 'id'            => 1,
                 'created_at'    => "2020-03-03 14:18:00",
                 'updated_at'    => "2020-03-03 14:18:00",
-                'name'      => "Broadcast"
+                'name'          => "Broadcast",
+                'user_id'       => "1"
+
             ],
             [
                 'id'            => 2,
                 'created_at'    => "2020-03-03 14:19:00",
                 'updated_at'    => "2020-03-03 14:19:00",
-                'name'      => "HybridLab"
+                'name'          => "HybridLab",
+                'user_id'       => "1"
             ],
             [
                 'id'            => 3,
                 'created_at'    => "2020-03-03 14:20:00",
                 'updated_at'    => "2020-03-03 14:20:00",
-                'name'      => "GamesLab"
+                'name'          => "GamesLab",
+                'user_id'       => "1"
             ]
         ];
 
