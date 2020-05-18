@@ -27,7 +27,9 @@ class Group extends Model
     /**
      * @var array Validation rules for attributes
      */
-    public $rules = [];
+    public $rules = [
+        'code' => 'numeric|digits:4'
+    ];
 
     /**
      * @var array Attributes to be cast to native types
@@ -47,7 +49,9 @@ class Group extends Model
     /**
      * @var array Attributes to be removed from the API representation of the model (ex. toArray())
      */
-    protected $hidden = [];
+    protected $hidden = [
+        'code'
+    ];
 
     /**
      * @var array Attributes to be cast to Argon (Carbon) instances

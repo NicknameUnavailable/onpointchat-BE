@@ -15,4 +15,8 @@ fields:
         type: relation
         select: name
         disabled: false
+    code:
+        label: Delete code
+        type: number
+        disabled: false
         

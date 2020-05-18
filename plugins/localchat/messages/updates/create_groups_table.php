@@ -13,6 +13,7 @@ class CreateGroupsTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('user_id');
+            $table->integer('code');
             $table->timestamps();
         });
     }
